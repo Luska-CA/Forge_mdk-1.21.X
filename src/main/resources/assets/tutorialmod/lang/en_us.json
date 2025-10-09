@@ -1,6 +1,12 @@
 {
   "block.tutorialmod.alexandrite_block": "Block of Alexandrite",
+  "block.tutorialmod.shey_block": "Block of Shweyliam",
+
+  "item.tutorialmod.shweyliam_fragment": "Fragment of Shweyliam",
   "item.tutorialmod.alexandrite": "Alexandrite Gem",
   "item.tutorialmod.goofy_ahh_gem": "Goofy Ahh Gem",
-  "item.tutorialmod.raw_alexandrite": "Raw Alexandrite"
+  "item.tutorialmod.raw_alexandrite": "Raw Alexandrite",
+
+  "creativetab.tutorialmod.shweyliam_items": "Shweyliam Items",
+  "creativetab.tutorialmod.shweyliam_block": "Shweyliam Blocks"
 }

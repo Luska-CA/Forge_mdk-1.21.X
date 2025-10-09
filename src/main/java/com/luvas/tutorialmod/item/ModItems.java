@@ -20,6 +20,9 @@ public class ModItems {
     public static final RegistryObject<Item> GOOFY_AHH_GEM = ITEMS.register("goofy_ahh_gem",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SHWEYLIAM_FRAGMENT = ITEMS.register("shweyliam_fragment",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

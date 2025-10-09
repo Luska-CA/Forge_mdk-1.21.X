@@ -1,6 +1,7 @@
 package com.luvas.tutorialmod;
 
 import com.luvas.tutorialmod.block.ModBlocks;
+import com.luvas.tutorialmod.item.ModCreativeModeTabs;
 import com.luvas.tutorialmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -39,6 +40,8 @@ public class TutorialMod
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -61,10 +64,12 @@ public class TutorialMod
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
             event.accept(ModItems.GOOFY_AHH_GEM);
+            event.accept(ModItems.SHWEYLIAM_FRAGMENT);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ALEXANDRITE_BLOCK);
+            event.accept(ModBlocks.SHEY_BLOCK);
         }
     }
 
