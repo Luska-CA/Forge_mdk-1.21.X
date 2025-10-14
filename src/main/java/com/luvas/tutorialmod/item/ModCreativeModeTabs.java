@@ -21,6 +21,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.GOOFY_AHH_GEM.get());
                         pOutput.accept((ModItems.ALEXANDRITE.get()));
                         pOutput.accept(ModItems.RAW_ALEXANDRITE.get());
+                        pOutput.accept(ModItems.BRENIUM_INGOT.get());
+                        pOutput.accept(ModItems.BRENIUM_ORE.get());
+                        pOutput.accept(ModItems.BRENO_CANDIDATO_MK_3.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> SHWEYLIAM_BLOCKS_TAB = CREATIVE_MODE_TABS.register("shweyliam_blocks_tab",
@@ -30,6 +33,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.SHEY_BLOCK.get());
                         pOutput.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.BRENIUM_ORE_BLOCK.get());
                     }).build());
 
 

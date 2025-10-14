@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 1,
+  "group": "brenium_ore",
+  "ingredient": {
+    "item": "tutorialmod:brenium_ore"
+  },
+  "result": {
+    "id": "tutorialmod:brenium_ingot"
+  }
+}

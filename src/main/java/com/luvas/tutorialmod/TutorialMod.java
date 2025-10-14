@@ -60,16 +60,25 @@ public class TutorialMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept((ModItems.BRENO_CANDIDATO_MK_3));
+        }
+
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
             event.accept(ModItems.GOOFY_AHH_GEM);
             event.accept(ModItems.SHWEYLIAM_FRAGMENT);
+            event.accept(ModItems.BRENIUM_INGOT);
+            event.accept(ModItems.BRENIUM_ORE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.ALEXANDRITE_BLOCK);
             event.accept(ModBlocks.SHEY_BLOCK);
+            event.accept(ModBlocks.BRENIUM_BLOCK);
+            event.accept(ModBlocks.GABIUM_BLOCK);
+            event.accept(ModBlocks.BRENIUM_ORE_BLOCK);
         }
     }
 

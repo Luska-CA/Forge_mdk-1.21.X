@@ -1,11 +1,17 @@
 {
   "block.tutorialmod.alexandrite_block": "Block of Alexandrite",
   "block.tutorialmod.shey_block": "Block of Shweyliam",
+  "block.tutorialmod.brenium_block": "Breniac Block",
+  "block.tutorialmod.gabium_block": "Gabium Block",
+  "block.tutorialmod.brenium_ore_block": "Brenium Ore Block (DAYUMN)",
 
   "item.tutorialmod.shweyliam_fragment": "Fragment of Shweyliam",
   "item.tutorialmod.alexandrite": "Alexandrite Gem",
   "item.tutorialmod.goofy_ahh_gem": "Goofy Ahh Gem",
   "item.tutorialmod.raw_alexandrite": "Raw Alexandrite",
+  "item.tutorialmod.brenium_ingot": "Brenium Ingot (perigoso)",
+  "item.tutorialmod.brenium_ore": "Brenium Ore (muito perigoso)",
+  "item.tutorialmod.breno_candidato_mk_3": "Breno Candidato MK.III",
 
   "creativetab.tutorialmod.shweyliam_items": "Shweyliam Items",
   "creativetab.tutorialmod.shweyliam_block": "Shweyliam Blocks"

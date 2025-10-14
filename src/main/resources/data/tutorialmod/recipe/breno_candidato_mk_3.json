@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "tutorialmod:brenium_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "A  ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:breno_candidato_mk_3"
+  }
+}

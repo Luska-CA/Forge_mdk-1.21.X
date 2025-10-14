@@ -23,6 +23,15 @@ public class ModItems {
     public static final RegistryObject<Item> SHWEYLIAM_FRAGMENT = ITEMS.register("shweyliam_fragment",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> BRENIUM_INGOT = ITEMS.register("brenium_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> BRENIUM_ORE = ITEMS.register("brenium_ore",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> BRENO_CANDIDATO_MK_3 = ITEMS.register("breno_candidato_mk_3",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:alexandrite_block",
+    "tutorialmod:brenium_block",
+    "tutorialmod:gabium_block",
+    "tutorialmod:brenium_ore_block"
+  ]
+}

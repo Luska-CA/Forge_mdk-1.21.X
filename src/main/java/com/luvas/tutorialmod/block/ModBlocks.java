@@ -2,9 +2,11 @@ package com.luvas.tutorialmod.block;
 
 import com.luvas.tutorialmod.TutorialMod;
 import com.luvas.tutorialmod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +25,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SHEY_BLOCK = registerBlock("shey_block", () -> new Block(BlockBehaviour.Properties.of()
             .strength(3f).requiresCorrectToolForDrops().sound(SoundType.SLIME_BLOCK)));
+
+    public static final RegistryObject<Block> BRENIUM_BLOCK = registerBlock("brenium_block", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(4f).requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final RegistryObject<Block> GABIUM_BLOCK = registerBlock("gabium_block", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(1f).requiresCorrectToolForDrops().sound(SoundType.HONEY_BLOCK)));
+
+    public static final RegistryObject<Block> BRENIUM_ORE_BLOCK = registerBlock("brenium_ore_block",
+            () -> new DropExperienceBlock(UniformInt.of(2,4), BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
